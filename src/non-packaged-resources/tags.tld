@@ -1,0 +1,108 @@
+	<tag>
+		<name>HTMLFormattedArticle</name>
+		<tag-class>edu.uiowa.medline.article.HTMLFormattedArticle</tag-class>
+		<body-content>JSP</body-content>
+
+		<attribute>
+			<name>ID</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>AuthorListForArticle</name>
+		<tag-class>edu.uiowa.medline.article.AuthorListForArticle</tag-class>
+		<body-content>JSP</body-content>
+
+		<attribute>
+			<name>ID</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>foreachAuthorCountPattern</name>
+		<tag-class>edu.uiowa.medline.authorCount.AuthorCountPatternIterator</tag-class>
+		<body-content>JSP</body-content>
+
+		<attribute>
+			<name>var</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+
+		<attribute>
+			<name>sortCriteria</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+		<attribute>
+			<name>lastName</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+		<attribute>
+			<name>foreName</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>authorCountPattern</name>
+		<tag-class>edu.uiowa.medline.authorCount.AuthorCountPattern</tag-class>
+		<body-content>JSP</body-content>
+
+		<attribute>
+			<name>lastName</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+		<attribute>
+			<name>foreName</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>authorCountPatternLastName</name>
+		<tag-class>edu.uiowa.medline.authorCount.AuthorCountPatternLastName</tag-class>
+		<body-content>empty</body-content>
+
+		<attribute>
+			<name>lastName</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>authorCountPatternForeName</name>
+		<tag-class>edu.uiowa.medline.authorCount.AuthorCountPatternForeName</tag-class>
+		<body-content>empty</body-content>
+
+		<attribute>
+			<name>foreName</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>authorCountPatternCount</name>
+		<tag-class>edu.uiowa.medline.authorCount.AuthorCountPatternCount</tag-class>
+		<body-content>empty</body-content>
+
+		<attribute>
+			<name>count</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
