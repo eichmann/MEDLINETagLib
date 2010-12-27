@@ -237,4 +237,3 @@ src/non-packaged-resources/functions.tld -text svneol=unset#text/xml
 src/non-packaged-resources/tags.tld -text svneol=unset#text/xml
 src/test/java/edu/uiowa/icts/taglib/MEDLINETagLib/README.txt svneol=native#text/plain
 src/test/resources/README.txt svneol=native#text/plain
-target/MEDLINETagLib-0.0.1-SNAPSHOT.jar -text svneol=unset#aplication/java-archive
